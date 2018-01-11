@@ -12,32 +12,32 @@ from threading import Thread
 from gtts import gTTS
 from googletrans import Translator
 
-kr1 = KRIS.LINE()
+kr1 = QHAL.LINE()
 #kr1.login(qr=True)
 kr1.login(token="EojMdFaO6SyrjXkKQe27./V26Y+84iM0vgub4NBmb1W.GiSAX+Gkm3/a/HteInoht/09FATOEAv1aFq6UIdJr40=")#1
 kr1.loginResult()
 
-kr2 = KRIS.LINE()
+kr2 = QHAL.LINE()
 #kr2.login(qr=True)
 kr2.login(token="EosLnj2HKOS9jUIVrLt9.fbMcAjl5m9eOdy9zPiwPkq.jCZ59gbLBSFyYmmlzfbhyqv16zDg3AUgTbWifv8kHvk=")#2
 kr2.loginResult()
 
-kr3 = KRIS.LINE()
+kr3 = QHAL.LINE()
 #kr3.login(qr=True)
 kr3.login(token="EoAtsufZLF7InP2rRLj4.MkwRahR9ZiUNsJo3ElXL9a.2llp5yQ/WqCrggyAJvBCaD7kXoE6Ms4hfV257hHHuoU=")#3
 kr3.loginResult()
 
-kr4 = KRIS.LINE()
+kr4 = QHAL.LINE()
 #kr4.login(qr=True)
 kr4.login(token="EoTMMovvrecpBX67vbt0.lhi7kD0Il/p2V3aWteDIma.1Cxq0un1Af1JS36vf7ni3cPxqPxF2zYQQOl78m2IlWU=")#4
 kr4.loginResult()
 
-kr5 = KRIS.LINE()
+kr5 = QHAL.LINE()
 #kr5.login(qr=True)
 kr5.login(token="EoUxExS7vVmZtQz6S1Qe.+urLDlQgcsoUTdJjm8G2ZG.HP8xq9bujyan2TciSxc5RtYugYR7IkveOQbF5b4T1Q8=")#5
 kr5.loginResult()
 
-#kr6 = KRIS.LINE()
+#kr6 = QHAL.LINE()
 #kr6.login(qr=True)
 #kr6.login(token="")#satpam
 #kr6.loginResult()
